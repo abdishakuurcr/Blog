@@ -1,0 +1,153 @@
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+* {
+margin: 0;
+padding: 0;
+font-family: "DM sans";
+}
+.header {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 20px;
+}
+.header ul{
+font-size: 30px;
+display: flex;
+gap: 50px;
+list-style: none; 
+}
+
+.OrderBtn {
+background-color:#A27B5C ;
+padding: 20px, 40px;
+font-size: 30px;
+border: none;
+color: white;
+}
+
+.singInBtn {
+    background-color: transparent;
+    padding: 17px, 40px;
+    font-size: 30px;
+    border: 3px #A27B5C solid;
+    color: #A27B5C;
+    margin-left: 30px;
+}
+
+.main {
+ height: 700px; 
+ background-color: #fcf7ef;  
+}
+
+.main h1{
+text-align: center;
+font-size: 80px;
+padding-top: 60px;
+font-weight: 50px;
+}
+.main h6{
+    padding-left: 34px;
+}
+
+.main p {
+text-align: center ;
+font-size: 30px;
+margin-bottom: 30px;
+}
+.main img {
+margin-left: 140px;
+width: 1000px;
+height: 400px;
+}
+.main h6 {
+color: rgb(133, 127, 127);
+}
+
+.main h2, h6 {
+margin-top: 20px;
+margin-left: 130px;
+}
+ .BLOG-parent {
+display: flex;
+gap: 30px;
+margin: 20px 130px;
+border-top: 1px black solid;
+/* border-bottom: 1px black solid; */
+padding: 20px;
+ }
+ 
+.BLOG-parent img{
+width: 200px;
+height: 200px;
+}
+
+.footer {
+height: 400px;
+background-color: black;
+color: white;
+text-align: center;
+}
+
+.footer .Location {
+text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
+margin: 20px 60px;
+border-bottom: 3px white solid;
+
+}
+.header i {
+display: none;
+}
+
+
+
+.header span {
+    color: #a27B5C;
+    }
+
+
+    @media screen and (max-width:600px) {
+      .header ul {
+      display: none;
+      }  
+      .btn{
+    display: none;
+      }
+      .header i{
+        display: block;
+     font-size: 59px;
+      }
+      .header{
+        padding: 20px;
+          }
+      .main h1{
+     font-size: 50px;
+      }
+      .main p {
+    font-size: 24px;
+      }
+      .main img {
+     width: 330px;
+    margin-top: 12px;
+    margin-left: 30px;
+      }
+      .BLOG-parent {
+     flex-direction: column;
+     margin: 0;
+      }
+      .BLOG-parent h1 {
+    font-size: 20px;
+      }
+      .BLOG-parent img {
+     width:100% ;
+      }
+      .main h2 {
+      margin: 10px 20px;
+    font-size: 16px;
+      }
+      .main h6{ 
+     margin: 10px 18px;
+      }
+    }
